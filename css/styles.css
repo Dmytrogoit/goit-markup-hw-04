@@ -1,0 +1,294 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+    color: #434455;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container {
+   width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.header-container{
+    display: flex;
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: 24px;
+    gap: 40px;
+}
+.menu-item {
+    padding: 24px 0;
+}
+.contacts-item {
+    padding: 24px 0;
+}
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.logo-studio {
+    color: #2E2F42;
+}
+
+.menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+.contacts-item {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+    display: block;
+    
+}
+
+.contacts-list {
+    font-style: normal;
+    gap: 40px;
+    display: flex;
+    margin-left: auto;
+}
+
+.hero-section {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.main-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.order-service-button {
+    
+    color: #FFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.about-us-list {
+    display: flex;
+    gap: 24px;
+}
+.about-us-item {
+    width: calc((100% - 72px) / 4);
+}
+.about-us-text {
+    margin-bottom: 8px;
+}
+.about-us-title {
+    margin-bottom: 8px;
+}
+.our-team-section {
+    background-color: #F4F4FD;
+}
+.our-team-title {
+    margin-bottom: 72px;
+}
+.our-team-list {
+    gap: 24px;
+}
+.team-list-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-list-container {
+    padding: 32px 0;
+}
+.our-team-text {
+    text-align: center;
+}
+.our-portfolio-secion {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.our-porfolio-title {
+    margin-bottom: 72px;
+}
+.our-porfolio-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.our-portfolio-item {
+
+}
+.our-porfolio-item-conteiner {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.our-portfolio-title {
+    margin-bottom: 8px;
+}
+.title-second {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.title-third {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-footer {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contacts-item:hover,
+.contacts-item:focus {
+    color: #404bbf;
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: #404BBF;
+}
+
+.footer-section {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+}
